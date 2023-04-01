@@ -1,0 +1,22 @@
+# Theme Settings
+remote_theme: gunhoon/minimal-mistakes
+
+# Site Settings
+title: Gunhoon Dev Blog
+description: > # this means to ignore newlines until "author:"
+  AI+ Finance: The combination of AI and finance.
+
+author:
+  name: Gunhoon Lee
+  email: gunhoon@gmail.com
+  bio: I am an **amazing** software engineer.
+  location: Seoul, Republic of Korea
+
+# Plugins
+plugins:
+ - jekyll-feed
+ - jekyll-gist
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-paginate
+ - jekyll-include-cache
