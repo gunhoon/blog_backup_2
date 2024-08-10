@@ -14,7 +14,7 @@ To set up your environment to develop the Jekyll site:
 1. Use Docker for Ruby:
 
     ```bash
-    docker run --rm -it -v "$PWD":/opt/jekyll -w /opt/jekyll -p 4000:4000 ruby:3.2 bash
+    docker run --rm -it -v "$PWD":/opt/jekyll -w /opt/jekyll -p 4000:4000 ruby:3.3 bash
     ```
 
 2. Install the required gems in a Gemfile:
